@@ -1,0 +1,19 @@
+{
+  "name": "cs2-rcon-bot",
+  "version": "1.0.0",
+  "description": "Discord bot pro ovládání CS2 serveru pomocí RCON",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "keywords": ["discord", "cs2", "rcon", "counter-strike"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "rcon-client": "^4.2.3",
+    "dotenv": "^16.4.1"
+  }
+}
